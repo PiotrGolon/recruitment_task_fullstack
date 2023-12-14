@@ -15,5 +15,7 @@ index:
     }
     requirements:
         wildcard: .*
-    # controller: App\Controller\DefaultController::index
 
+exchange_rates:
+    path: /exchange-rates
+    controller: App\Controller\ExchangeRates::getRates
